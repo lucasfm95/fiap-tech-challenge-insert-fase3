@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Fiap.TechChallenge.Domain\Fiap.TechChallenge.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Fiap.TechChallenge.LibDomain" Version="1.0.4" />
+    </ItemGroup>
+
 </Project>

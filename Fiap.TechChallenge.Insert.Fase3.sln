@@ -4,8 +4,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{937ECD5C-2CB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F72EC5EC-4518-4C73-9D12-8EEA2866DDEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Worker", "src\Fiap.TechChallenge.Worker\Fiap.TechChallenge.Worker.csproj", "{97F23F42-BEA2-4604-BDAA-2E616F234E45}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Infrastructure", "src\Fiap.TechChallenge.Infrastructure\Fiap.TechChallenge.Infrastructure.csproj", "{B594DB21-0979-4F23-A7E0-5EF74A6E94CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Application", "src\Fiap.TechChallenge.Application\Fiap.TechChallenge.Application.csproj", "{3B4CC8EE-5670-46D7-BA81-9FD856FC101A}"
@@ -14,23 +12,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "tests\TestProject1\TestProject1.csproj", "{5FC396A3-5214-4BA7-8417-E456E433876A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Worker", "src\Fiap.TechChallenge.Worker\Fiap.TechChallenge.Worker.csproj", "{684D38E9-D274-493A-B787-55DA96CF26B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{97F23F42-BEA2-4604-BDAA-2E616F234E45} = {937ECD5C-2CB9-450F-9364-B03032DBE35E}
 		{B594DB21-0979-4F23-A7E0-5EF74A6E94CE} = {937ECD5C-2CB9-450F-9364-B03032DBE35E}
 		{3B4CC8EE-5670-46D7-BA81-9FD856FC101A} = {937ECD5C-2CB9-450F-9364-B03032DBE35E}
 		{94A96C8D-5A34-48EC-8778-B3ED55122458} = {937ECD5C-2CB9-450F-9364-B03032DBE35E}
 		{5FC396A3-5214-4BA7-8417-E456E433876A} = {F72EC5EC-4518-4C73-9D12-8EEA2866DDEC}
+		{684D38E9-D274-493A-B787-55DA96CF26B9} = {937ECD5C-2CB9-450F-9364-B03032DBE35E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97F23F42-BEA2-4604-BDAA-2E616F234E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97F23F42-BEA2-4604-BDAA-2E616F234E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97F23F42-BEA2-4604-BDAA-2E616F234E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97F23F42-BEA2-4604-BDAA-2E616F234E45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B594DB21-0979-4F23-A7E0-5EF74A6E94CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B594DB21-0979-4F23-A7E0-5EF74A6E94CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B594DB21-0979-4F23-A7E0-5EF74A6E94CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,5 +43,9 @@ Global
 		{5FC396A3-5214-4BA7-8417-E456E433876A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC396A3-5214-4BA7-8417-E456E433876A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC396A3-5214-4BA7-8417-E456E433876A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684D38E9-D274-493A-B787-55DA96CF26B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684D38E9-D274-493A-B787-55DA96CF26B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684D38E9-D274-493A-B787-55DA96CF26B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684D38E9-D274-493A-B787-55DA96CF26B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
