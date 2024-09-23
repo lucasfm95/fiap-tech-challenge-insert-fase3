@@ -9,6 +9,14 @@
 
     <ItemGroup>
         <PackageReference Include="Fiap.TechChallenge.LibDomain" Version="1.0.4" />
+        <PackageReference Include="MassTransit" Version="8.2.5" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.5" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+        <PackageReference Include="prometheus-net" Version="8.2.1" />
+        <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fiap.TechChallenge.Infrastructure\Fiap.TechChallenge.Infrastructure.csproj" />
     </ItemGroup>
 </Project>

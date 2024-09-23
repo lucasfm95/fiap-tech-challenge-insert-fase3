@@ -9,6 +9,6 @@ public interface IContactRepository
     /// </summary>
     /// <param name="contact">Entity to insert in database</param>
     /// <param name="cancellationToken">A CancellationToken to observe while waiting for the task to complete.</param>
-    /// <returns>A Task that represents the asynchronous operation. The task result contains a boolean value that specifies whether the contact was successfully deleted.</returns>
-    public Task<Contact> InsertAsync(Contact contact, CancellationToken cancellationToken);
+    /// <returns>A Task that represents the asynchronous operation.</returns>
+    public Task InsertAsync(Contact contact, CancellationToken cancellationToken);
 }

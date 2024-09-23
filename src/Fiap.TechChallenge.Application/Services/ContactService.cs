@@ -10,6 +10,7 @@ public class ContactService(IContactRepository contactRepository) : IContactServ
     public async Task<Contact> InsertAsync(ContactEntity message, CancellationToken cancellationToken)
     {
         var contact = new Contact(message.Name, message.Email, message.PhoneNumber, message.DddNumber);
-        return await contactRepository.InsertAsync(contact,cancellationToken);
+        await contactRepository.InsertAsync(contact,cancellationToken);
+        return contact;
     }
 }
