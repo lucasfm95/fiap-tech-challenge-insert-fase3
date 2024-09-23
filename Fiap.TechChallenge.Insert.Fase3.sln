@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Domain", "src\Fiap.TechChallenge.Domain\Fiap.TechChallenge.Domain.csproj", "{94A96C8D-5A34-48EC-8778-B3ED55122458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "tests\TestProject1\TestProject1.csproj", "{5FC396A3-5214-4BA7-8417-E456E433876A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.UnitTests", "tests\Fiap.TechChallenge.UnitTests\Fiap.TechChallenge.UnitTests.csproj", "{5FC396A3-5214-4BA7-8417-E456E433876A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Worker", "src\Fiap.TechChallenge.Worker\Fiap.TechChallenge.Worker.csproj", "{684D38E9-D274-493A-B787-55DA96CF26B9}"
 EndProject
