@@ -29,7 +29,7 @@ public static class DependencyInjectionConfig
                 var massTransitPort = ushort.Parse(Environment.GetEnvironmentVariable("MASS_TRANSIT_PORT") ?? "0");
                 var massTransitUser = Environment.GetEnvironmentVariable("MASS_TRANSIT_USERNAME") ?? string.Empty;
                 var massTransitPassword = Environment.GetEnvironmentVariable("MASS_TRANSIT_PASSWORD") ?? string.Empty;
-                var massTransitQueueName = Environment.GetEnvironmentVariable("MASS_TRANSIT_DELETE_QUEUE_NAME") ?? string.Empty;
+                var massTransitQueueName = Environment.GetEnvironmentVariable("MASS_TRANSIT_INSERT_QUEUE_NAME") ?? string.Empty;
 
                 cfg.Host(massTransitHost, massTransitPort, "/", hostConfigurator =>
                 {
