@@ -5,7 +5,13 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "environmentVariables": {
-        "DOTNET_ENVIRONMENT": "Development"
+        "DOTNET_ENVIRONMENT": "Development",
+        "CONNECTION_STRING_DB_POSTGRES": "Host=localhost;Port=5432;Username=postgres;Password=123456;Database=fiap_tech_challenge",
+        "MASS_TRANSIT_INSERT_QUEUE_NAME": "contact-insert-queue",
+        "MASS_TRANSIT_HOST": "localhost",
+        "MASS_TRANSIT_PORT": "5672",
+        "MASS_TRANSIT_USERNAME": "admin",
+        "MASS_TRANSIT_PASSWORD": "admin"
       }
     }
   }
